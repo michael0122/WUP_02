@@ -48,11 +48,17 @@ basicCN <- ggplot(veggy,aes(x=Cult,y=VitC))
 basicCN + geom_boxplot()
 ```
 
-it loks like there is more vitc in c52 than c 39
+it looks like there is more vitc in c52 than c 39 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+it looks like there is more vitc in c 52 with an average of 64.4 than c 39 with an average of 51.5
 
 ## Inferential Results
 
