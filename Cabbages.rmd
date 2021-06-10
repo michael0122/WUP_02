@@ -58,7 +58,7 @@ it looks like there is more vitc in c52 than c 39
 favstats(VitC~Cult,data=veggy)
 ```
 
-it looks like there is more vitc in c 52 with an average of 64.4 than c 39 with an average of 51.5
+it looks like there is more vitC in c 52 with an average of 64.4 than c 39 with an average of 51.5
 
 ## Inferential Results
 
